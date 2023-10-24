@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--Meta Data-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--Title-->
+    <title>IMDB Clone</title>
+
+    <!--CSS and JavaScript-->
+    <link rel="stylesheet" type="text/css" href="style.css" />
+
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet">
+
+    <!--Font Awesome Icons-->
+    <script src="https://kit.fontawesome.com/d5635d350d.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <!--Header Bar-->
+    <header class="header">
+        <div class="logo">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/IMDB_Logo_2016.svg/2560px-IMDB_Logo_2016.svg.png" />
+        </div>      
+        <div class="searchbox-container">
+            <div class="search-box">
+                <input type="text" placeholder="Search" id="Input" />
+                <i class="fas fa-search" style="color: azure;"></i>
+            </div>
+            <div class="header-link">
+                <i class="fa-regular fa-heart" style="cursor:pointer; color:white; border-left:10px; padding: 10px;"></i>
+                <span><a href="favorite.html">My Favourites</a></span>
+            </div>
+            <img class="profile-photo" src="https://cdn3.vectorstock.com/i/1000x1000/30/97/flat-business-man-user-profile-avatar-icon-vector-4333097.jpg" />
+        </div>
+    </header>
+    <!--Main Content Container-->
+    <div class="main">
+        <!-- Search Items Display Section -->
+        <div class="fav-container">
+            <!-- Items are displayed here -->
+        </div>
+        <!--Watermark Area / Start Exploring Section-->
+        <div class="start-exploring">
+            <i class="fa-solid fa-film fa-6x"></i><br>
+            <span>Start Exploring!</span>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

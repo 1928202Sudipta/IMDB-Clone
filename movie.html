@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--Meta Data-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--Title-->
+    <title>Movie.html</title>
+
+    <!--CSS and JavaScript-->
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="script.js"></script>
+
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet">
+
+    <!--Font Awesome Icons-->
+    <script src="https://kit.fontawesome.com/d5635d350d.js" crossorigin="anonymous"></script>
+</head>
+
+<body onload="singleMovie()">
+    <!--Header Bar-->
+    <header class="header">
+        <div class="logo">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/IMDB_Logo_2016.svg/2560px-IMDB_Logo_2016.svg.png" />
+        </div>      
+        <div class="searchbox-container">
+            <div class="search-box">
+                <input type="text" placeholder="Search" id="Input" />
+                <i class="fas fa-search" style="color: azure;"></i>
+            </div>
+            <div class="header-link">
+               <a href="index.html"><i class="fa-solid fa-house" style="cursor:pointer; color:white; border-left:10px;"></i></a> 
+                <span><a href="index.html">Back to Home</a></span>
+            </div>
+            <img class="profile-photo" src="https://cdn3.vectorstock.com/i/1000x1000/30/97/flat-business-man-user-profile-avatar-icon-vector-4333097.jpg" />
+        </div>
+    </header>
+    <!--Main Content Container-->
+    <div class="main">
+        <div class="movie-container">
+            <!-- Movie details are displayed here-->
+        </div>
+    </div>
+</body>
+
+</html>
